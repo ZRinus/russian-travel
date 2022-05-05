@@ -1,8 +1,3 @@
-@import url('../../blocks/abc-title/_size/abc-title_size_normal.css');
-@import url('../../blocks/abc-title/_size/abc-title_size_lead.css');
-@import url('../../blocks/abc-title/_size/abc-title_size_normal-compressed.css');
-@import url('../../blocks/abc-title/_size/abc-title_size_small.css');
-
 .abc-title {
   font-weight: 900;
 }

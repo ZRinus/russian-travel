@@ -1,11 +1,3 @@
-@import url('../../blocks/places/__diff/places__diff.css');
-@import url('../../blocks/places/__image/places__image.css');
-@import url('../../blocks/places/__link/places__link.css');
-@import url('../../blocks/places/__paragraph/places__paragraph.css');
-@import url('../../blocks/places/__title/places__title.css');
-@import url('../../blocks/places/__website__link/places__website__link.css');
-@import url('../../blocks/places/__website__link/_with-caption/places__website__link_with-caption.css');
-
 .places {
   display: block;
 }

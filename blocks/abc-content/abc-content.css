@@ -1,8 +1,3 @@
-@import url('../../blocks/abc-content/_size/_normal/abc-content_size_normal.css');
-@import url('../../blocks/abc-content/_size/_small-compressed/abc-content_size_small-compressed.css');
-@import url('../../blocks/abc-content/_size/_small/abc-content_size_small.css');
-@import url('../../blocks/abc-content/_underlined/abc-content_underlined.css');
-
 .abc-content {
   font-weight: normal;
 }
