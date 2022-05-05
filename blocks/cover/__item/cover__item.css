@@ -1,0 +1,17 @@
+.cover__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background: rgba(43, 42, 47, 0.3);
+  color: white;
+  text-decoration: none;
+  bottom: 0%;
+  position: absolute;
+}
+
+.cover__item:hover {
+  background: rgba(53, 58, 66, 0.8);
+}

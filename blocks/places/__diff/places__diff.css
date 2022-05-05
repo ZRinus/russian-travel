@@ -1,0 +1,11 @@
+.places__diff {
+  margin-top: 83px;
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 460px 1fr;
+  row-gap: 53px;
+}
+
+.places__diff:first-child {
+  margin-top: 0px;
+}

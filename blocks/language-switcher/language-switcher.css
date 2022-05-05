@@ -1,0 +1,8 @@
+@import url('../../blocks/language-switcher/__item/language-switcher__item.css');
+@import url('../../blocks/language-switcher/__item/_is-current/language-switcher__item_is-current.css');
+
+.language-switcher {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}

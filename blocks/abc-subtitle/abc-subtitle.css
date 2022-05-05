@@ -1,0 +1,8 @@
+@import url('../../blocks/abc-subtitle/_size/abc-subtitle_size_normal.css');
+@import url('../../blocks/abc-subtitle/_size/abc-subtitle_size_lead.css');
+@import url('../../blocks/abc-subtitle/_size/abc-subtitle_size_normal-compressed.css');
+@import url('../../blocks/abc-subtitle/_size/abc-subtitle_size_small.css');
+
+.abc-subtitle {
+  font-weight: normal;
+}

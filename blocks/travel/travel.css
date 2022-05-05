@@ -1,0 +1,15 @@
+@import url('../../blocks/travel/__cover/travel__cover.css');
+@import url('../../blocks/travel/__footer/travel__footer.css');
+@import url('../../blocks/travel/__header/travel__header.css');
+@import url('../../blocks/travel/__lead/travel__lead.css');
+@import url('../../blocks/travel/__photo-grid/travel__photo-grid.css');
+@import url('../../blocks/travel/__places/travel__places.css');
+@import url('../../blocks/travel/__intro/travel__intro.css');
+
+.travel {
+  margin: 0px auto;
+  padding: 0px 17px;
+  min-width: 960px;
+  max-width: 1184px;
+  font-family: Inter, Arial, sans-serif;
+}

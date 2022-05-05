@@ -1,0 +1,12 @@
+@import url('../../blocks/link/_no-hover/link_no-hover.css');
+@import url('../../blocks/link/_with-caption/link_with-caption.css');
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:not(.link_no-hover):hover {
+  transition: opacity 0.2s ease-out;
+  opacity: 0.8;
+}
