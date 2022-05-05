@@ -1,4 +1,4 @@
-.content__soft {
+.content_soft {
   margin-left: auto;
   margin-right: auto;
 }
@@ -6,7 +6,7 @@
 @media screen
   and (max-width: 1216px)
   and (min-width: 1121px) {
-.content__soft {
+.content_soft {
   margin-left: 1rem;
   margin-right: 1rem;
   }
@@ -15,7 +15,7 @@
 @media screen
   and (max-width: 1120px)
   and (min-width: 1024px) {
-.content__soft {
+.content_soft {
   margin-left: 3rem;
   margin-right: 3rem;
   }
@@ -24,7 +24,7 @@
 @media screen
   and (max-width: 1023px)
   and (min-width: 768px) {
-.content__soft {
+.content_soft {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   }
@@ -32,7 +32,7 @@
 
 @media screen
   and (max-width: 767px) {
-.content__soft {
+.content_soft {
   margin-left: 1rem;
   margin-right: 1rem;
   }
