@@ -1,0 +1,4 @@
+.places__range {
+  display: flex;
+  flex-wrap: wrap;
+}

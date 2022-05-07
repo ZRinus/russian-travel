@@ -1,4 +1,25 @@
 .travel__places {
-  margin: 102px auto 0px;
+  margin: 106px;
   max-width: 984px;
+}
+
+@media screen
+  and (max-width: 1024px)
+  and (min-width: 769px) {
+.travel__places {
+  margin-top: 119px;
+  }
+}
+
+@media screen and (max-width: 768px)
+  and (min-width: 376px) {
+.travel__places {
+  margin-top: 105px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+.travel__places {
+  margin-top: 67px;
+  }
 }

@@ -5,3 +5,12 @@
 .places__paragraph:first-child {
   margin-top: -4px;
 }
+
+@media screen and (max-width: 711px) {
+.places__paragraph {
+  margin-top: 23px;
+  }
+.places__paragraph:first-child {
+  margin-top: 14px;
+  }
+}
