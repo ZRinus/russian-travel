@@ -8,7 +8,7 @@
 
 @media screen
   and (max-width: 1024px)
-  and (min-widht: 376px) {
+  and (min-width: 376px) {
     .cover__background {
       padding-top: 54.8%;
     }

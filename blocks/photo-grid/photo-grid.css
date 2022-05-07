@@ -6,14 +6,6 @@
   justify-content: center;
 }
 
-.photo-grid {
-  column-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-  justify-content: center;
-  row-gap: 16px;
-}
-
 @media screen
   and (max-width: 1220px)
   and (min-width: 928px) {
