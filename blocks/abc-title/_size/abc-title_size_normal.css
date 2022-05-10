@@ -1,4 +1,12 @@
 .abc-title_size_normal {
   font-size: 72px;
-  line-height: 78px;
+  line-height: 76px;
+  align-items: center;
 }
+
+@media screen and (max-width: 375px) {
+.abc-title_size_normal {
+  font-size: 32px;
+  line-height: 35px;
+    }
+  }

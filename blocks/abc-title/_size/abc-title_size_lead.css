@@ -1,4 +1,11 @@
 .abc-title_size_lead {
   font-size: 96px;
-  line-height: 92px;
+  line-height: 100px;
 }
+
+@media screen and (max-width: 375px) {
+.abc-title_size_lead {
+  font-size: 44px;
+  line-height: 40px;
+    }
+  }

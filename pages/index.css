@@ -3,9 +3,9 @@
 @import url('../fonts/fonts.css');
 
 @import url('../blocks/abc-content/abc-content.css');
-@import url('../blocks/abc-content/_size/_normal/abc-content_size_normal.css');
-@import url('../blocks/abc-content/_size/_small-compressed/abc-content_size_small-compressed.css');
-@import url('../blocks/abc-content/_size/_small/abc-content_size_small.css');
+@import url('../blocks/abc-content/_size/abc-content_size_normal.css');
+@import url('../blocks/abc-content/_size/abc-content_size_small-compressed.css');
+@import url('../blocks/abc-content/_size/abc-content_size_small.css');
 @import url('../blocks/abc-content/_underlined/abc-content_underlined.css');
 
 @import url('../blocks/abc-image-caption/abc-image-caption.css');
@@ -21,6 +21,7 @@
 @import url('../blocks/abc-title/_size/abc-title_size_lead.css');
 @import url('../blocks/abc-title/_size/abc-title_size_normal-compressed.css');
 @import url('../blocks/abc-title/_size/abc-title_size_small.css');
+@import url('../blocks/abc-title/_size/abc-title_size_cover.css');
 
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/_soft/content_soft.css');
@@ -35,7 +36,7 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__link/footer__link.css');
 
-@import url('../blocks/fullCapa/fullCapa.css');
+@import url('../blocks/fullсapa/fullсapa.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 

@@ -1,9 +1,9 @@
 .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(284, 1fr));
   column-gap: 16px;
-  row-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   justify-content: center;
+  row-gap: 16px;
 }
 
 @media screen

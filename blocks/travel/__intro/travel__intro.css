@@ -6,7 +6,7 @@
 @media screen
   and (max-width: 1024px)
   and (min-width: 769px) {
-.root__intro {
+.travel__intro {
   margin-top: 118px;
   }
 }
@@ -14,13 +14,13 @@
 @media screen
   and (max-width: 768px)
   and (min-width: 376px) {
-.root__intro {
+.travel__intro {
   margin-top: 75px;
   }
 }
 
 @media screen and (max-width: 375px) {
-.root__intro {
+.travel__intro {
   margin-top: 62px;
   }
 }

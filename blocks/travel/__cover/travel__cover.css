@@ -5,13 +5,13 @@
 @media screen
   and (max-width: 1024px)
   and (min-width: 376px)  {
-.root__cover {
+.travel__cover {
   margin-top: 102px;
   }
 }
 
 @media screen and (max-width: 375px) {
-.root__cover {
+.travel__cover {
   margin-top: 49px;
   }
 }

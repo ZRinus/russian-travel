@@ -1,4 +1,11 @@
 .abc-title_size_small {
   font-size: 54px;
-  line-height: 59px;
+  line-height: 58px;
 }
+
+@media screen and (max-width: 375px) {
+  .abc-title_size_small {
+    font-size: 32px;
+    line-height: 35px;
+      }
+    }

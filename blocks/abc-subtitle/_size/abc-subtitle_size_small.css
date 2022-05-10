@@ -1,4 +1,11 @@
 .abc-subtitle_size_small {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 22px;
 }
+
+@media screen and (max-width: 375px) {
+  .abc-subtitle_size_small {
+    font-size: 14px;
+    line-height: 16px;
+      }
+    }

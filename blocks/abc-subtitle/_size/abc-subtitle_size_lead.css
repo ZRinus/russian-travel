@@ -2,3 +2,10 @@
   font-size: 30px;
   line-height: 36px;
 }
+
+@media screen and (max-width: 375px) {
+  .abc-subtitle_size_lead {
+    font-size: 16px;
+    line-height: 20px;
+      }
+    }
