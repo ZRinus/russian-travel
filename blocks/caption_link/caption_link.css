@@ -1,10 +1,10 @@
 .caption_link::before {
-    margin: 0px 0px 5px 0px;
-    display:block;
-    content: "URL";
-    font-size: 12px;
-    letter-spacing: 0.2em;
-    line-height: 20px;
-    color: #AAAAAA;
-  }
+  margin: 0px 0px 5px 0px;
+  display:block;
+  color: #AAAAAA;
+  content: "URL";
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  line-height: 20px;
+}
 
