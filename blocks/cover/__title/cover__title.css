@@ -2,6 +2,9 @@
   margin: 23.5% 0px 0px 0px;
   color: #fffdfd;
   text-align: center;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.08;
 }
 
 @media screen
@@ -21,6 +24,8 @@
   margin-top:21%;
   margin-left: 3rem;
   margin-right: 3rem;
+  font-size: 2rem;
+  line-height: 1.09;
   }
 }
 

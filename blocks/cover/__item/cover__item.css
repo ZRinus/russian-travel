@@ -8,12 +8,12 @@
   flex-direction: column;
   justify-content: space-between;
   background: rgba(42, 44, 47, 0.3);
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .cover__item:hover {
-  background: rgba(53, 58, 66, 0.8);
+  background: rgba(42, 44, 47, 0.8);
   transition: background 0.15s ease-out;
 }
 

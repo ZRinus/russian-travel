@@ -1,13 +1,13 @@
 .travel__places {
-  margin: 106px;
+  margin: 150px auto;
   max-width: 984px;
 }
 
 @media screen
   and (max-width: 1024px)
   and (min-width: 769px) {
-.travel__places {
-  margin-top: 119px;
+  .travel__places {
+    margin-top: 119px;
   }
 }
 

@@ -1,9 +1,13 @@
 .link {
   color: white;
   text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
 }
 
-.link:not(.link_no-hover):hover {
+.link:hover {
   transition: opacity 0.2s ease-out;
   opacity: 0.8;
+  pointer-events: visiblePainted;
 }
