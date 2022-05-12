@@ -2,7 +2,7 @@
 
 @import url('../fonts/fonts.css');
 
-@import url('../blocks/caption_link/caption-link.css');
+@import url('../blocks/caption_link/caption_link.css');
 
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/_soft/content_soft.css');
