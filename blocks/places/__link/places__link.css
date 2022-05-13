@@ -10,8 +10,3 @@
   }
 }
 
-@media screen and (max-width: 711px) {
-.places__link {
-  display: none;
-  }
-}

@@ -5,7 +5,7 @@
 @import url('../blocks/caption-link/caption-link.css');
 
 @import url('../blocks/content/content.css');
-@import url('../blocks/content/_soft/content_soft.css');
+@import url('../blocks/content/_soft/_full/content_soft_full.css');
 
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__background/cover__background.css');
@@ -45,7 +45,6 @@
 @import url('../blocks/lead/__heading-wrapper/lead__heading-wrapper.css');
 
 @import url('../blocks/link/link.css');
-@import url('../blocks/link/_no-hover/link_no-hover.css');
 
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__items/photo-grid__items.css');
@@ -57,9 +56,10 @@
 @import url('../blocks/places/__paragraph/places__paragraph.css');
 @import url('../blocks/places/__title/places__title.css');
 @import url('../blocks/places/__range/places__range.css');
-@import url('../blocks/places/__range/_header/places__range_header.css');
-@import url('../blocks/places/__range/_content/places__range_content.css');
+@import url('../blocks/places/__range/_header/_part/places__range_header_part.css');
+@import url('../blocks/places/__range/_content/_part/places__range_content_part.css');
 @import url('../blocks/places/__description/places__description.css');
+@import url('../blocks/places/__url-heading/places__url-heading.css');
 
 @import url('../blocks/travel/travel.css');
 @import url('../blocks/travel/__cover/travel__cover.css');

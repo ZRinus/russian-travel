@@ -2,10 +2,6 @@
   margin: 1.33em 0px 0px 0px;
 }
 
-.places__paragraph:first-child {
-  margin-top: -4px;
-}
-
 @media screen and (max-width: 711px) {
 .places__paragraph {
   margin-top: 23px;
