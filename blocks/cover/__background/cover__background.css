@@ -1,21 +1,24 @@
 .cover__background {
-  padding-top: 50%;
-  background: url(../../../images/background.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(../../../images/background.jpeg);
   background-size: cover;
+  background-position: center;
+  aspect-ratio: 16 / 10;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
-@media screen
-  and (max-width: 1024px)
-  and (min-width: 376px) {
-.cover__background {
-  padding-top: 54.8%;
-  }
+.cover__background::before {
+  background: rgba(42, 44, 47, .3);
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
 }
 
-@media screen and (max-width: 375px) {
-  .cover__background {
-    padding-top:72.3%;
-  }
+.cover__background:hover:before {
+  background: rgba(42, 44, 47, .8);
 }

@@ -2,14 +2,11 @@
 
 @import url('../fonts/fonts.css');
 
-@import url('../blocks/caption-link/caption-link.css');
-
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/_soft/_full/content_soft_full.css');
 
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__background/cover__background.css');
-@import url('../blocks/cover/__item/cover__item.css');
 @import url('../blocks/cover/__paragraph/cover__paragraph.css');
 @import url('../blocks/cover/__title/cover__title.css');
 
@@ -62,7 +59,6 @@
 @import url('../blocks/places/__url-heading/places__url-heading.css');
 
 @import url('../blocks/travel/travel.css');
-@import url('../blocks/travel/__cover/travel__cover.css');
 @import url('../blocks/travel/__footer/travel__footer.css');
 @import url('../blocks/travel/__header/travel__header.css');
 @import url('../blocks/travel/__lead/travel__lead.css');
