@@ -1,9 +1,9 @@
 .cover__background {
   background-image: url(../../../images/background.jpeg);
+  position: relative;
+  aspect-ratio: 16/10;
   background-size: cover;
   background-position: center;
-  aspect-ratio: 16/10;
-  position: relative;
   text-decoration: none;
   display: flex;
   flex-flow: column;
