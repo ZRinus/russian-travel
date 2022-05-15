@@ -1,12 +1,12 @@
 .intro__list {
-  margin: 1.24em 0px 0px 0px;
+  margin: 33px 0px 0px 0px;
   padding: 0px;
   list-style: none;
 }
 
 @media screen and (max-width: 375px) {
-  .intro__list {
-    margin-top: 7px;
+.intro__list {
+  margin-top: 34px;
   }
 }
 

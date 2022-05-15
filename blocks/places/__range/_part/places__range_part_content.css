@@ -1,17 +1,17 @@
-.places__range_content {
+.places__range_part_content {
   margin-top: 52px;
 }
 
 @media screen
   and (max-width: 1024px)
   and (min-width: 376px) {
-.places__range_content {
+.places__range_part_content {
   margin-top: 47px;
   }
 }
 
 @media screen and (max-width: 375px) {
-.places__range_content {
+.places__range_part_content {
   margin-top: 36px;
   }
 }

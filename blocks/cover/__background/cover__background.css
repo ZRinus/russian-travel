@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
-  height: 740px;
+  min-height: 740px;
   color: white;
 }
 
@@ -28,7 +28,6 @@
 
 @media screen and (max-width: 1024px) {
 .cover__background {
-  height: 60vw;
+  min-height: 60vw;
   }
 }
-

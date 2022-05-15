@@ -14,4 +14,5 @@ CSS (Flexbox, Grid Layout)
 Методология БЭМ - Nested
 Проект выполнен благодаря Яндекс.Практикум
 
-Ссылка на проект: https://github.com/ZRinus/russian-travel/index.html
+Ссылка на проект: https://ZRinus.github.io/russian-travel/index.html
+
