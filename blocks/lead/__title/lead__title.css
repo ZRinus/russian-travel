@@ -4,11 +4,13 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
+  max-width: 720px;
 }
 
 @media screen and (max-width: 375px) {
 .lead__title {
   font-size: 44px;
   line-height: 40px;
+  max-width: 288px;
   }
 }

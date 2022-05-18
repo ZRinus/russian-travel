@@ -1,5 +1,5 @@
 .places__diff {
-  margin: 75px 0px 0px;
+  margin: 80px 0px 0px;
 }
 
 .places__diff:first-child {
@@ -10,12 +10,12 @@
   and (max-width: 1024px)
   and (min-width: 376px) {
 .places__diff {
-  margin: 83px 0px 0px;
+  margin: 72px 0px 0px;
   }
 }
 
 @media screen and (max-width: 375px) {
 .places__diff {
-  margin: 55px 0px 0px;
+  margin: 50px 0px 0px;
   }
 }

@@ -1,15 +1,15 @@
 .places__image {
   width: 100%;
-  flex-basis: 460px;
   flex-grow: 1;
-  /*max-width: 460px;*/
+  flex-basis: 460px;
+  max-width: 460px;
 }
 
 @media screen
   and (max-width: 1024px)
   and (min-width: 769px) {
 .places__image {
-  /*flex-basis: 440px;*/
+  flex-basis: 440px;
   max-width: 440px;
   }
 }
@@ -18,13 +18,14 @@
   and (max-width: 768px)
   and (min-width: 321px) {
 .places__image {
-  /*flex-basis: 340px;*/
+  flex-basis: 340px;
+  max-width: 340px;
   }
 }
 
 @media screen and (max-width: 320px) {
 .places__image {
-  /*flex-basis: 320;*/
-  /*max-width: 320;*/
+  flex-basis: 320px;
+  max-width: 320px;
   }
 }

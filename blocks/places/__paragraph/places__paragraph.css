@@ -1,5 +1,7 @@
 .places__paragraph {
   margin: 1.33em 0px 0px 0px;
+  font-size: 18px;
+  line-height: 1.63;
 }
 
 .places__paragraph:first-child {
@@ -9,6 +11,7 @@
 @media screen and (max-width: 711px) {
 .places__paragraph {
   margin-top: 23px;
+  font-size: 16px;
   }
 
 .places__paragraph:first-child {

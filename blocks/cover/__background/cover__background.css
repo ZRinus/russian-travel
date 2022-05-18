@@ -1,15 +1,18 @@
 .cover__background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: url(../../../images/background.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-decoration: none;
+  width: 100%;
   min-height: 740px;
+  background-size: cover;
+  text-decoration: none;
   color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .cover__background::before {
@@ -26,8 +29,20 @@
   background: rgba(42, 44, 47, .8);
 }
 
-@media screen and (max-width: 1024px) {
-.cover__background {
-  min-height: 60vw;
+@media screen and (max-width: 1279px) {
+  .cover__background {
+      min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__background {
+      min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background {
+      min-height: 200px;
   }
 }

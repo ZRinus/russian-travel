@@ -1,19 +1,26 @@
 .lead__image-wrapper {
-  margin: 71px auto 0px;
+  margin: 64px auto 0px;
   max-width: 984px;
 }
 
-@media screen
-    and (max-width: 1120px)
-    and (min-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
 .lead__image-wrapper {
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin: 56px auto 0px;
+  max-width: 928px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
 .lead__image-wrapper {
-  margin-top: 33px;
+  max-width: 768px;
   }
 }
+
+@media screen and (max-width: 320px) {
+.lead__image-wrapper {
+  margin: 40px auto 0px;
+  max-width: 320px;
+  }
+}
+

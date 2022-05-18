@@ -2,11 +2,13 @@
   margin: 0px;
   font-weight: normal;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 16px;
 }
 
-@media screen and (max-width: 700px) {
-  .footer__copyright {
-    margin: 37px 0px 0px 0px;
+@media screen and (max-width: 320px) {
+.footer__copyright {
+  margin: 48px 0px 0px 0px;
+  font-size: 14px;
+  line-height: 14px;
   }
 }

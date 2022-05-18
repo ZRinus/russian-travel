@@ -2,3 +2,9 @@
   align-items: flex-end;
   margin-bottom: 48px;
 }
+
+@media screen and (max-width: 375px) {
+.places__range_part_header {
+  align-items: flex-start;
+  }
+}

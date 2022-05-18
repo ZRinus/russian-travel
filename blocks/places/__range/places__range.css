@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .places__range {
-    flex-direction: column;
+.places__range {
+  flex-direction: column;
   }
 }
