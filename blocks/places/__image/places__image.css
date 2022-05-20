@@ -1,7 +1,6 @@
 .places__image {
   width: 100%;
   flex-grow: 1;
-  max-height: 460px;
   max-width: 460px;
 }
 
@@ -9,7 +8,6 @@
   and (max-width: 1024px)
   and (min-width: 769px) {
 .places__image {
-  max-height: 440px;
   max-width: 440px;
   }
 }
@@ -18,14 +16,12 @@
   and (max-width: 768px)
   and (min-width: 321px) {
 .places__image {
-  max-height: 340px;
   max-width: 340px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
 .places__image {
-  max-height: 320px;
   max-width: 320px;
   margin-bottom: 32px;
   }
