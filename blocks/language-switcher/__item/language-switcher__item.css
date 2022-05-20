@@ -3,7 +3,7 @@
   display: inline-block;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
 .language-switcher__item {
   margin-left: 1em;
   }

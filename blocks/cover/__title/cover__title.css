@@ -21,7 +21,7 @@
 
 @media screen
   and (max-width: 649px)
-  and (min-width: 376px) {
+  and (min-width: 321px) {
 .cover__title {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -31,7 +31,7 @@
 }
 
 @media screen
-  and (max-width: 375px) {
+  and (max-width: 320px) {
 .cover__title {
   max-width: 288px;
   font-size: 32px;

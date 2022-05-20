@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .places__sidebar {
     padding: 0px 16px;
     }

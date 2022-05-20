@@ -7,7 +7,7 @@
   line-height: 28px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
 .language-switcher {
   font-size: 18px;
   line-height: 20px;
