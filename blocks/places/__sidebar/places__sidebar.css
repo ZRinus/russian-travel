@@ -28,3 +28,9 @@
   max-width: unset;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .places__sidebar {
+    padding: 0px 16px;
+    }
+  }
