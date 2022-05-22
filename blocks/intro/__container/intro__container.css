@@ -2,7 +2,7 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 768px) {
 .intro__container {
   max-width: 720px;
   }

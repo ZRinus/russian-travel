@@ -2,18 +2,10 @@
   margin-left: 13px;
 }
 
-.footer__link:first-child {
-  margin: 0px;
-}
-
 @media screen and (max-width: 700px) {
-.footer__link {
-  margin: 14px 0px 0px 0px;
-  display: block;
-}
-
-.footer__link:first-child {
-  margin: 0px;
+  .footer__link {
+    margin: 14px 0px 0px 0px;
+    display: block;
   }
 }
 
@@ -21,5 +13,9 @@
   .footer__link {
     margin: 32px 0px 0px 0px;
     display: block;
+  }
+
+  .footer__link:first-child {
+    margin: 0px;
   }
 }
