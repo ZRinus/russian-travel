@@ -9,12 +9,13 @@
 
 @media screen and (max-width: 1024px) {
 .lead__paragraph {
-  max-width: unset;
+  max-width: 640px;
   }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 767px) {
 .lead__paragraph {
+  max-width: 640px;
   font-size: 24px;
   line-height: 26px;
   }
@@ -30,6 +31,7 @@
 @media screen and (max-width: 320px) {
 .lead__paragraph {
   margin-top: 13px;
+  max-width: 288px;
   font-size: 16px;
   line-height: 20px;
   }
