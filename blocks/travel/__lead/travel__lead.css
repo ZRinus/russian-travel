@@ -1,9 +1,0 @@
-.travel__lead {
-  margin-top: 56px;
-}
-
-@media screen and (max-width: 320px) {
-.travel__lead {
-  margin-top: 48px;
-  }
-}

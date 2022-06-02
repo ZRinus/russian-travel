@@ -1,4 +1,29 @@
 .cover {
-  position: relative;
-  max-width: 1184px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 92px 48px 92px 48px;
+  box-sizing: border-box;
+}
+
+@media screen
+  and (max-width: 1024px)
+  and (min-width: 769px) {
+.cover {
+  padding: 92px 0 92px 0;
+  }
+}
+
+@media screen
+  and (max-width: 768px)
+  and (min-width: 426px) {
+.cover {
+  padding: 90px 0 88px 0;
+  }
+}
+
+@media screen
+  and (max-width: 425px) {
+.cover {
+  padding: 66px 0 64px 0;
+  }
 }

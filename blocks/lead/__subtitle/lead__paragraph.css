@@ -1,0 +1,29 @@
+.lead__paragraph {
+  margin: 0;
+  padding-bottom: 64px;
+  max-width: 640px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: 'inter', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen
+  and (max-width: 1024px)
+  and (min-width: 426px) {
+.lead__paragraph {
+  padding-bottom: 56px;
+  }
+}
+
+@media screen
+  and (max-width: 425px) {
+.lead__paragraph {
+  padding-bottom: 40px;
+  max-width: 288px;
+  font-size: 16px;
+  line-height: 20px;
+  }
+}

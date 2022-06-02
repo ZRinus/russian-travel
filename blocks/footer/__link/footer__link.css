@@ -1,21 +1,21 @@
 .footer__link {
-  margin-left: 13px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+  color: #ffffff;
 }
 
-@media screen and (max-width: 700px) {
-  .footer__link {
-    margin: 14px 0px 0px 0px;
-    display: block;
-  }
+.footer__link:hover {
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
-  .footer__link {
-    margin: 32px 0px 0px 0px;
-    display: block;
-  }
-
-  .footer__link:first-child {
-    margin: 0px;
+@media screen
+  and (max-width: 425px) {
+.footer__link {
+  font-size: 24px;
+  line-height: 24px;
   }
 }

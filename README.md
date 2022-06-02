@@ -15,4 +15,3 @@ CSS (Flexbox, Grid Layout)
 Проект выполнен благодаря Яндекс.Практикум
 
 Ссылка на проект: https://ZRinus.github.io/russian-travel/index.html
-
