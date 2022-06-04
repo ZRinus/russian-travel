@@ -11,7 +11,7 @@
     <header class="header">
       <div class="header__logo"></div>
       <ul class="header__links">
-        <li><a href="#" class="header__link header__link_no-hover">Ru</a></li>
+        <li><a href="#" class="header__link header__link_active">Ru</a></li>
         <li><a href="#" class="header__link">En</a></li>
       </ul>
     </header>
@@ -44,19 +44,19 @@
         </p>
         <ul class="intro__list">
           <li class="intro__list-item">
-            <span class="intro__item-bold">Часовых поясов</span> 11
+            <span class="intro__item-number">Часовых поясов</span> 11
           </li>
           <li class="intro__list-item">
-            <span class="intro__item-bold">Объектов природного наследия ЮНЕСКО</span> 12
+            <span class="intro__item-number">Объектов природного наследия ЮНЕСКО</span> 12
           </li>
           <li class="intro__list-item">
-            <span class="intro__item-bold">Объектов культурного наследия ЮНЕСКО</span> 16
+            <span class="intro__item-number">Объектов культурного наследия ЮНЕСКО</span> 16
           </li>
           <li class="intro__list-item">
-            <span class="intro__item-bold">Природных заповедников</span> 105
+            <span class="intro__item-number">Природных заповедников</span> 105
           </li>
           <li class="intro__list-item">
-            <span class="intro__item-bold">Аэропортов</span> 241
+            <span class="intro__item-number">Аэропортов</span> 241
           </li>
         </ul>
       </section>
@@ -100,6 +100,7 @@
             </p>
           </div>
         </article>
+
         <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
@@ -107,7 +108,7 @@
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
           </div>
           <img src="./images/kolsky.jpg" alt="Фото Кольский полуостров" class="place__image">
-          <div>
+          <div class="place__text">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг —
               тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
@@ -121,6 +122,7 @@
             </p>
           </div>
         </article>
+
         <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
@@ -128,7 +130,7 @@
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
           </div>
           <img src="./images/place-altai.jpg" alt="Фото Алтая" class="place__image">
-          <div>
+          <div class="place__text">
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать
               вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы
@@ -141,6 +143,7 @@
             </p>
           </div>
         </article>
+
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
@@ -148,7 +151,7 @@
             <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place-winter-baikal.jpg" alt="Фото Байкала" class="place__image">
-          <div>
+          <div class="place__text">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также знают,
               что это самый большой источник пресной воды и одно из красивейших мест в России.
@@ -161,6 +164,7 @@
             </p>
           </div>
         </article>
+
         <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
@@ -168,7 +172,7 @@
             <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
-          <div>
+          <div class="place__text">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница
               не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -184,18 +188,16 @@
 
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-          <div class="cover__background">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__paragraph">По мотивам учебной темы о Транссибе
-              — путешествие от столицы до Байкала на электричках.
-            </p>
-          </div>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__paragraph">По мотивам учебной темы о Транссибе
+            — путешествие от столицы до Байкала на электричках.
+          </p>
         </a>
       </section>
     </main>
 
     <footer class="footer">
-      <nav>
+      <nav class="footer__links-text">
         <ul class="footer__links">
           <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
           <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
